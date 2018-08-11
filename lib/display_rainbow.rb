@@ -4,7 +4,7 @@ colors = ['red', 'orange', 'yellow']
 
 def display_rainbow(colors)
   for colors.each do |color|
-    p "#{color[0]}: #{color}"
+    puts "#{color[0]}: #{color}"
   end
 end
 

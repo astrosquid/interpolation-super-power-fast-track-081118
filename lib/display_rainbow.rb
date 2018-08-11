@@ -3,7 +3,7 @@
 colors = ['red', 'orange', 'yellow']
 
 def display_rainbow(colors)
-  for colors.each do |color|
+  colors.each do |color|
     puts "#{color[0]}: #{color}"
   end
 end

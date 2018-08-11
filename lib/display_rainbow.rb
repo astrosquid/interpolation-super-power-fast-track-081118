@@ -5,7 +5,7 @@ colors = ['red', 'orange', 'yellow']
 def display_rainbow(colors)
   rainbow = ""
   colors.each do |color|
-    puts "#{color[0].upcase}: #{color}"
+    rainbow += "#{color[0].upcase}: #{color}, "
   end
 end
 

@@ -7,5 +7,7 @@ def display_rainbow(colors)
   end
   
   puts rainbow.chomp(", ")
+  
+  puts "#{colors[0][0]}: #{colors[0]},"
 end
 

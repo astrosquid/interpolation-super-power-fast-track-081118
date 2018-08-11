@@ -9,4 +9,3 @@ def display_rainbow(colors)
   puts rainbow.chomp(", ")
 end
 
-display_rainbow(colors)

@@ -7,6 +7,8 @@ def display_rainbow(colors)
   colors.each do |color|
     rainbow += "#{color[0].upcase}: #{color}, "
   end
+  
+  puts rainbow 
 end
 
 display_rainbow(colors)
